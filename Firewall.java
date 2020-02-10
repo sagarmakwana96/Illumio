@@ -10,7 +10,7 @@ public class Firewall {
         String str;
         while ((str = br.readLine()) != null) {
             String[] param = str.split(",");
-            rule_set.add(new Rule(parak[0], param[1], param[2], param[3]));
+            rule_set.add(new Rule(param[0], param[1], param[2], param[3]));
         }
     }
 
